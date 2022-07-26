@@ -39,9 +39,11 @@ return (
   <Meta
     // avatar={<Avatar src="https://joeschmoe.io/api/v1/random" />}
     title={props.id.title}
-    description={<Tooltip />}
+    // description={<Tooltip />}
+    description={desk}
     // onMouseEnter={}
   />
+  <Tooltip />
 </Card>
 )
   
